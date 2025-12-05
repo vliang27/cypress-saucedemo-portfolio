@@ -1,0 +1,20 @@
+{
+  "name": "cypress-saucedemo-portfolio",
+  "version": "1.0.0",
+  "description": "Cypress framework demo against saucedemo.com",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "lint": "eslint . --ext .js,.jsx",
+    "test:component": "cypress run --component"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@cypress/react": "^6.0.0",
+    "axe-core": "^4.6.3",
+    "cypress": "^12.0.0",
+    "cypress-axe": "^1.0.0",
+    "eslint": "^8.0.0",
+    "faker": "^5.5.3"
+  }
+}
